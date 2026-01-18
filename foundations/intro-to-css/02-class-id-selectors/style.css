@@ -1,1 +1,20 @@
 /* Add CSS Styling */
+.odd {
+    background-color:rgb(230, 167, 219);
+    font-family:Verdana, DejaVu Sans, sans-serif;
+}
+
+#odd{
+    font-size: 24px;
+}
+
+#id{
+    color:rgb(94, 94, 231);
+    font-size:36px;
+}
+
+#another-id{
+    font-size: 24px;
+    background-color:rgb(143, 231, 143);
+    font-weight: bold;
+}
