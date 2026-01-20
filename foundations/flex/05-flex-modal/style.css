@@ -16,10 +16,40 @@ body {
 }
 
 .modal {
+  display:flex;
+  gap:10px;
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+}
+
+.left, .right{
+  margin:10px;
+}
+
+.left{
+  justify-content:start
+}
+
+.right{
+  justify-content:end;
+}
+
+.center{
+  margin:10px 0;
+  gap:100px;
+}
+
+.text{
+  margin:10px 0;
+  flex-wrap: wrap;
+}
+
+.header{
+  font-size:20px;
+  font-weight: bold;
+  justify-content: center;
 }
 
 .icon {
